@@ -8,7 +8,7 @@ public class MyClass {
         int checker = 0;
         String string = s.trim().replaceAll(" ", "");
 
-        if (string.isEmpty()) return;
+        if (string.isEmpty()) return false;
 
         for (Character c : s.toCharArray()) {
 
